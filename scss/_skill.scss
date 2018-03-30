@@ -1,0 +1,49 @@
+// Styling for the services section
+#skill {
+    background: url(../img/background.jpg) center top fixed;
+    @include background-size(cover);
+    .section-heading {
+        color: $white;
+    }
+    .skill-heading {
+        margin: 15px 0;
+        text-transform: none;
+    }
+    .progress {
+        height: 20px;
+        margin-bottom: 30px;
+    }
+    .progress-title {
+        color: $white;
+    }
+    .progress-bar {
+       width: 0%;
+    }
+    .bg-html {
+        background-color: $primary;
+    }
+    .bg-sass {
+        background-color: #6f42c1;
+    }
+    .bg-js {
+        background-color: #20c997;
+    }
+    .bg-php {
+        background-color: #17a2b8;
+    }
+    .bg-wordpress {
+        background-color: #007bff;
+    }
+    .bg-photoshop {
+        background-color: #dc3545;
+    }
+    .bg-git {
+        background-color: #fd7e14;
+    }
+    .bg-anglais {
+        background-color: #6c757d;
+    }
+    .btn {
+        margin-top: 40px;
+    }
+}

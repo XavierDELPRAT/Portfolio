@@ -1,0 +1,56 @@
+@import "compass";
+
+/* Tools */
+$orange: #f89624;
+
+/* Base */
+
+body {
+  font-size: 16px;
+  min-height: 2000px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Layout */
+
+/* Modules */
+
+.header {
+    padding: 700px 0 700px 0;
+    background: url(img/header.jpg) center top fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; 
+}
+
+.navbar {
+    margin-top: 125px;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+    height: 85px;
+    font-size: 85px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-weight: 600;
+    
+   
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: $orange;
+}
